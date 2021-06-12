@@ -1,0 +1,45 @@
+/* 
+    eerie black: #272727;
+    foam sea green: #36f1cd; 
+    light-coral: #ff858d;
+*/
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+    background-image: none; 
+    background-color: #272727;
+}
+
+
+
+nav > *:hover, li > a:hover, a:hover{
+    color: #aff9eb;
+}
+
+.btn-primary {
+    background-color: #ff858d;
+    border-color: #ff858d;
+}
+.btn-primary:hover {
+    background-color: #b35d63;
+    border-color: #b35d63;
+}
+
+footer {
+    background-image: none; 
+    background-color: #272727;  
+    color: #36f1cd;
+
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+
